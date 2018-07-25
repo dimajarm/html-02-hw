@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Форма для отримання безкоштовного гіду Україною</title>
+</head>
+<body>
+    <a href="index.html">Повернутися на головну сторінку</a>
+    <h1>Заповнивши форму ви отримаєте безкоштовний гід найцікавіших місць України</h1>
+    <form action="https://formspree.io/d.jarmolin@gmail.com"
+      method="POST">
+        Ваше ім'я
+        <br>
+    <input type="text" name="name">
+        <br>
+        Ваш email
+        <br>
+    <input type="email" name="_replyto">
+        <br>
+        Дата прибуття:
+        <br>
+    <input type="date" name="arday">
+        <br>
+        Ваш вік
+        <br>
+    <input type="text" name='age'>
+        <br>
+        Стать
+        <br>
+        <input type="radio" name="gender" value="male"> Чоловік<br>
+        <input type="radio" name="gender" value="female"> Жінка<br>
+        <input type="radio" name="gender" value="other"> Інше<br>
+        <br>
+        Спосіб прибуття?
+        <br>
+    <select name="way of arrival">
+        <option value="null"></option>
+        <option value="plane">літаком</option>
+        <option value="car">автомобілем</option>
+        <option value="bus">автобусом</option>
+        <option value="train">потягом</option>
+        <option value="other">інше</option>
+    </select>
+        <br>
+        <br>
+        Маєте запитання?
+        <br>
+        <br>
+    <textarea name="message" rows="12" cols="35">
+        Опишіть детально 
+    </textarea>
+        <br>
+    <input type="checkbox" name="norobot" value="no"> Підтвердіть, що Ви не робот<br>
+        <br>
+    <input type="submit" value="Надіслати">
+    </form>
+</body>
+</html>
